@@ -1,0 +1,67 @@
+@font-face {
+    font-family: hoofdtitel;
+    src: url(/fonts/MilkyVintage-Regular.ttf);
+}
+
+body {
+    background-color: black;
+}
+
+
+h1 {
+    font-family: hoofdtitel;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:  auto auto auto auto;
+    place-items: center;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+.wrapper-text1 {
+    text-align: center;
+}
+
+h1, h3 {
+    color:white;
+}
+
+.product-naam {
+    font-size: 25px;
+}
+
+.product-naam:hover {
+    /*text-decoration:underline;*/
+    cursor: pointer;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.prijs {
+    margin-bottom:100px;;
+}
+
+.image:hover {
+
+    opacity: 0.3;
+}
